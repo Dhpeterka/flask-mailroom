@@ -1,0 +1,12 @@
+{% extends 'base.jinja2' %}
+
+{% block subtitle %}Donor Not Found{% endblock subtitle %}
+
+{% block content %}
+<form method="POST">
+    Donor {{ name }} not found.  Create new donor to record {{ amount }} donation?
+    <input type="submit" value="Yes, Record Donor & Donation">
+</form>
+
+{% endblock content %}
+
